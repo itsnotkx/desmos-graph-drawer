@@ -33,7 +33,7 @@ burger_top_bun="""<!DOCTYPE html>
     <html>
         <head>
             <meta charset="utf-8">
-            <script src="https://www.desmos.com/api/v1.8/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
+            <script src="https://www.desmos.com/api/v1.8/calculator.js?apiKey= "></script>
         </head>
     <body>
         <div id="calculator" style="width: 1920px; height: 1080px;"></div>
