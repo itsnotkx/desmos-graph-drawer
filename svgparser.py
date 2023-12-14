@@ -8,7 +8,7 @@ burger_top_bun="""<!DOCTYPE html>
     <html>
         <head>
             <meta charset="utf-8">
-            <script src="https://www.desmos.com/api/v1.8/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
+            <script src="https://www.desmos.com/api/v1.8/calculator.js?apiKey="></script>
         </head>
     <body>
         <div id="calculator" style="width: 1920px; height: 1080px;"></div>
@@ -209,11 +209,7 @@ def looper(x_anchor_coord,y_anchor_coord,burger_meat,end_parse):
 
 
 if __name__=="__main__":
-    svg_file_path=r"c:\Users\swarm\Pictures\goosebitmap.svg"
-    #svg_file_path=r"c:\Users\swarm\Pictures\fish.pnbitmap.svg"
-    #svg_file_path=r"c:\Users\swarm\Pictures\EqKJfORUUAE2wDkbitmap.svg"
-    #svg_file_path=r"c:\Users\swarm\Pictures\bbitmap.svg"
-    #svg_file_path=r"c:\Users\swarm\Pictures\EqKJfORUUAE2wDkbitmap.svg"
+    svg_file_path=""
     tree=ET.parse(svg_file_path)
     root=tree.getroot()
     svg_namespace = "{http://www.w3.org/2000/svg}"
